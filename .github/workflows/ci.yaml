@@ -84,6 +84,12 @@ jobs:
           --health-retries 5
 
     steps:
+      - name: Install cargo-insta
+        uses: actions-rs/cargo@v1
+        with:
+          command: install
+          args: cargo-insta
+          
       - name: Checkout the code
         uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
