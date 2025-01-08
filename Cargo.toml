@@ -59,3 +59,4 @@ serial_test = "3.1.1"
 rstest = "0.24.0"
 loco-rs = { workspace = true, features = ["testing"] }
 insta = { version = "1.34.0", features = ["redactions", "yaml", "filters"] }
+pretty_assertions = "1.4.1"

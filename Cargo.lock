@@ -1481,6 +1481,7 @@ dependencies = [
  "insta",
  "loco-rs",
  "migration",
+ "pretty_assertions",
  "rstest",
  "sea-orm",
  "serde",
