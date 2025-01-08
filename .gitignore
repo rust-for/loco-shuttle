@@ -16,9 +16,12 @@ target/
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
 
+# SQLite
+*.sqlite
 *.sqlite/target
 .shuttle*
 Secrets*.toml
 
 # Loco-rs
 **/snapshots
+
