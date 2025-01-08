@@ -1,4 +1,4 @@
-use fairwin_b::{
+use fairwin::{
     app::App,
     models::users::{self, Model, RegisterParams},
 };

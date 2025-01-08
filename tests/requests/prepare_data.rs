@@ -1,5 +1,5 @@
 use axum::http::{HeaderName, HeaderValue};
-use fairwin_b::{models::users, views::auth::LoginResponse};
+use fairwin::{models::users, views::auth::LoginResponse};
 use loco_rs::{app::AppContext, TestServer};
 
 const USER_EMAIL: &str = "test@loco.com";

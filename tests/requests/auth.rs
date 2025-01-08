@@ -1,4 +1,4 @@
-use fairwin_b::{app::App, models::users};
+use fairwin::{app::App, models::users};
 use insta::{assert_debug_snapshot, with_settings};
 use loco_rs::testing;
 use rstest::rstest;

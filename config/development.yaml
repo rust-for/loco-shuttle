@@ -55,7 +55,7 @@ mailer:
 # Database Configuration
 database:
   # Database connection URI
-  uri: {{ get_env(name="DATABASE_URL", default="sqlite://fairwin_b_development.sqlite?mode=rwc") }}
+  uri: {{ get_env(name="DATABASE_URL", default="postgres://loco:loco@localhost:5432/fairwin_development") }}
   # When enabled, the sql query will be logged.
   enable_logging: false
   # Set the timeout duration when acquiring a connection.
@@ -86,6 +86,6 @@ auth:
   # JWT authentication
   jwt:
     # Secret key for token generation and verification
-    secret: GODcqIRDuxyKbeo4BR7h
+    secret: bMpU1mvpcK7XYguRwIgU
     # Token expiration time in seconds
     expiration: 604800 # 7 days

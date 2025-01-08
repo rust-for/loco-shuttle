@@ -1,4 +1,4 @@
-use fairwin_b::app::App;
+use fairwin::app::App;
 use loco_rs::cli;
 use migration::Migrator;
 

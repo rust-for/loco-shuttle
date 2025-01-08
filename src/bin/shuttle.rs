@@ -1,4 +1,4 @@
-use fairwin_b::app::App;
+use fairwin::app::App;
 use loco_rs::boot::{create_app, StartMode};
 use loco_rs::environment::Environment;
 use migration::Migrator;

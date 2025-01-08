@@ -1,4 +1,4 @@
-use fairwin_b::app::App;
+use fairwin::app::App;
 #[allow(unused_imports)]
 use loco_rs::{cli::playground, prelude::*};
 
