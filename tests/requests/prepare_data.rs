@@ -1,6 +1,6 @@
 use axum::http::{HeaderName, HeaderValue};
-use fairwin_b::{models::users, views::auth::LoginResponse};
 use loco_rs::{app::AppContext, TestServer};
+use fairwin_b::{models::users, views::auth::LoginResponse};
 
 const USER_EMAIL: &str = "test@loco.com";
 const USER_PASSWORD: &str = "1234";

@@ -1,6 +1,6 @@
-use fairwin_b::app::App;
 #[allow(unused_imports)]
 use loco_rs::{cli::playground, prelude::*};
+use fairwin_b::app::App;
 
 #[tokio::main]
 async fn main() -> loco_rs::Result<()> {
