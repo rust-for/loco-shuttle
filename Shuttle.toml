@@ -1,0 +1,13 @@
+name = "fairwin_b"
+
+[deploy]
+include = [
+    "config/*",
+    "fairwin_b_development.sqlite"
+]
+
+[build]
+assets = [
+    "config/*",
+    "fairwin_b_development.sqlite"
+]
